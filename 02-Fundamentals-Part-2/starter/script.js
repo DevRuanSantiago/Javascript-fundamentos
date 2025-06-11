@@ -25,6 +25,7 @@ console.log(juiceResult);
 const secondJuice = fruitProcessor(2,3);
 console.log(secondJuice);
 */
+/*
 function calcage1(birthdayyear)
 {
     return 2025-birthday;
@@ -36,3 +37,4 @@ console.log(`${calcage1(2001)}`)
  }
  const age2 = calcage2(2000)
  console.log(`${Age2}`);
+ */
