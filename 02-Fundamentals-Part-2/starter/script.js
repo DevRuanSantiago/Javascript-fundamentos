@@ -38,3 +38,20 @@ console.log(`${calcage1(2001)}`)
  const age2 = calcage2(2000)
  console.log(`${Age2}`);
  */
+/*
+const  calcactualage = birthday => 2025 - birthday;
+const actualAge = calcactualage(2001);
+console.log(`${actualAge}`);
+const yearsUntilRetirement = birthdayYear => {
+    const age = 2025 - birthdayYear;
+    const yearsUntilRequired = 70-age;
+    return yearsUntilRequired;
+}
+console.log(yearsUntilRetirement(2001))
+*/
+/*
+function fruitProcessor (apples,bananas){
+console.log(apples, bananas);
+const juice = `juice with ${apples} apples and ${bananas} bananas.`;
+return juice;
+*/
