@@ -55,3 +55,37 @@ console.log(apples, bananas);
 const juice = `juice with ${apples} apples and ${bananas} bananas.`;
 return juice;
 */
+/*
+const yearsUntilRetirement = (birthdayYear, FirstName) => {
+
+    const age = 2025 - birthdayYear;
+    const retirement = 70 - age;
+    return (`${FirstName} need to work more ${retirement} years to be retired `);
+
+}
+
+
+console.log(yearsUntilRetirement(2005, `Ruan`));
+*/
+calcAge = function (birthdayYear) {
+    return 2025 - birthdayYear;
+}
+
+console.log(yearsUntilRetirement(2001, `Ruan`));
+
+const yearsUntilRetiremet = function (birthdayYear, FirstName) 
+     {
+
+    const age = calcAge(birthdayYear)
+    const retirement = 70 - age;
+    if(retirement > 0)
+    {
+       return (`${FirstName} need to work more ${retirement} years to be retired `);
+    }
+    else
+    {
+        return (`thanks for your contribuation you can now retire :D`)
+    }
+
+}
+console.log(yearsUntilRetiremet(2005, `Ruan`));
