@@ -67,6 +67,7 @@ const yearsUntilRetirement = (birthdayYear, FirstName) => {
 
 console.log(yearsUntilRetirement(2005, `Ruan`));
 */
+/*
 calcAge = function (birthdayYear) {
     return 2025 - birthdayYear;
 }
@@ -89,3 +90,17 @@ const yearsUntilRetiremet = function (birthdayYear, FirstName)
 
 }
 console.log(yearsUntilRetiremet(2005, `Ruan`));
+*/
+const friends = [`michael`, `steven`, `jonas`];
+console.log(` ${friends}`)
+
+
+//exercise
+const CalcAge = function(birthdayYear)
+{
+    return 2025-birthdayYear;
+}
+const years = [2000,2001,2003,2005,2004,2006];
+console.log(CalcAge(years[0]))
+const ages = [CalcAge(years[0]), CalcAge(years[1]), CalcAge[(years.length - 1)]]
+console.log(ages);
