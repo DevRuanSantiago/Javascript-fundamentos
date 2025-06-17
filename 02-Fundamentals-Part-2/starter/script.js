@@ -120,3 +120,11 @@ console.log(CalcAge(years[0]))
 const ages = [CalcAge(years[0]), CalcAge(years[1]), CalcAge[(years.length - 1)]]
 console.log(ages);
 */
+ const jonas = {
+    firstname: 'jonas',
+    lastname: `gabriel`,
+    age:25,
+    job:`teacher`,
+    friends: ["tomas", "joao","borel", "anaju"]
+ }
+ console.log(jonas.firstname)
