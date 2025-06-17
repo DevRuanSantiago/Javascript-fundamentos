@@ -91,6 +91,7 @@ const yearsUntilRetiremet = function (birthdayYear, FirstName)
 }
 console.log(yearsUntilRetiremet(2005, `Ruan`));
 */
+/*
 const friends = [`michael`, `steven`, `jonas`];
 //add elements
 friends.push('tomas')
@@ -104,6 +105,7 @@ console.log(`${friends}`)
  console.log(`${shifted}`)
  console.log(`${friends}`)
  console.log(friends.indexOf(`steven`))
+ */
 
 
 
