@@ -92,10 +92,23 @@ const yearsUntilRetiremet = function (birthdayYear, FirstName)
 console.log(yearsUntilRetiremet(2005, `Ruan`));
 */
 const friends = [`michael`, `steven`, `jonas`];
-console.log(` ${friends}`)
+//add elements
+friends.push('tomas')
+friends.unshift('Zezé')
+console.log(`${friends}`)
+//Remove elements
+const popped = friends.pop() /// remove last element
+console.log(`${popped}`)
+console.log(`${friends}`)
+ const shifted = friends.shift()
+ console.log(`${shifted}`)
+ console.log(`${friends}`)
+ console.log(friends.indexOf(`steven`))
+
 
 
 //exercise
+/*
 const CalcAge = function(birthdayYear)
 {
     return 2025-birthdayYear;
@@ -104,3 +117,4 @@ const years = [2000,2001,2003,2005,2004,2006];
 console.log(CalcAge(years[0]))
 const ages = [CalcAge(years[0]), CalcAge(years[1]), CalcAge[(years.length - 1)]]
 console.log(ages);
+*/
