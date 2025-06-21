@@ -120,11 +120,27 @@ console.log(CalcAge(years[0]))
 const ages = [CalcAge(years[0]), CalcAge(years[1]), CalcAge[(years.length - 1)]]
 console.log(ages);
 */
- const jonas = {
+const jonas = {
     firstname: 'jonas',
     lastname: `gabriel`,
-    age:25,
-    job:`teacher`,
-    friends: ["tomas", "joao","borel", "anaju"]
- }
- console.log(jonas.firstname)
+    age: 25,
+    job: `teacher`,
+    friends: ["tomas", "joao", "borel"]
+}
+console.log(jonas.firstname)
+console.log(jonas[`lastname`])
+const Namekey = `name`;
+console.log(jonas[`first` + Namekey])
+console.log(jonas[`last` + Namekey])
+
+const interessedIn = prompt(`what do you wanna now about jonas`)
+
+if (jonas[interessedIn]) {
+    console.log(jonas[interessedIn])
+}
+else {
+    console.log(` please choose some information about jonas like: firstname,lastname,age,job or friends`)
+}
+jonas[`location`] = `alemParaiaba`
+console.log(jonas)
+console.log(`${jonas[`firstname`]} has ${jonas.friends.length} friends and his besft friend is ${jonas.friends[0]}`)
